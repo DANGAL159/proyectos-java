@@ -8,13 +8,14 @@ public class CreandoMarcos {
         MarcoCentrado v2 = new MarcoCentrado(); //Con icono, titulo y centrado con matematicas
         v2.setVisible(false);
 
-        MarcoConTexto v3 = new MarcoConTexto(); //
+        MarcoConTexto v3 = new MarcoConTexto(); // Con esta solo añadi un texto con Lamina, metodo drawString
         v3.setVisible(false);
 
-        MarcoConDibujos v4 = new MarcoConDibujos();
-        v4.setVisible(true);
+        MarcoConDibujos v4 = new MarcoConDibujos(); //Usamos Graphics y Graphics2D
+        v4.setVisible(false);
 
-        
+        MarcoConColor v5 = new MarcoConColor();
+        v5.setVisible(true);
 
 
 
