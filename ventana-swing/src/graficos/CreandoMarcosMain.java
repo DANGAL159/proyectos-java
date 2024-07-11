@@ -1,5 +1,5 @@
 package graficos;
-public class CreandoMarcos {
+public class CreandoMarcosMain {
     public static void main(String[] args) throws Exception {
 
         miMarco v1 = new miMarco();// con titulo y centrado con null
@@ -15,10 +15,22 @@ public class CreandoMarcos {
         v4.setVisible(false);
 
         MarcoConColor v5 = new MarcoConColor();
-        v5.setVisible(true);
+        v5.setVisible(false);
 
+        MarcoConFuentes v6 = new MarcoConFuentes();
+        v6.setVisible(true);
 
+        //Para obtener las fuentes se hace el siguiente codigo
+        /*
+    // import java.awt.GraphicsEnvironment; //NECESARIo
+    String [] nombreDeFuentes = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+    for(String nombredelafuente : nombreDeFuentes){
+        System.out.println(nombredelafuente);
+    }
+         */
 
+        
+         
     }
 
 }
