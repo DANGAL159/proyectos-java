@@ -18,7 +18,7 @@ public class CreandoMarcosMain {
         v5.setVisible(false);
 
         MarcoConFuentes v6 = new MarcoConFuentes();
-        v6.setVisible(true);
+        v6.setVisible(false);
 
         //Para obtener las fuentes se hace el siguiente codigo
         /*
@@ -29,7 +29,8 @@ public class CreandoMarcosMain {
     }
          */
 
-        
+        MarcoConImagen v7 = new MarcoConImagen();
+        v7.setVisible(true);
          
     }
 
